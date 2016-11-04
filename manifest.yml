@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: SSQCloudTest1238
+  host: SSQCloudTest1238
+  disk_quota: 1024M
+  services:
+  - SSQCloudTest1238-cloudantNoSQLDB
